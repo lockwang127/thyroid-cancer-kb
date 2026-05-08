@@ -1,0 +1,209 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌补充知识图谱 - 治疗并发症与特殊人群",
+  "domain": "treatment_complications_special_populations",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "甲状腺癌术后并发症",
+      "relation": "声音嘶哑",
+      "tail": "喉返神经损伤，发生率约1-2%",
+      "source": "甲状腺手术并发症文献",
+      "evidence": "喉返神经损伤是甲状腺手术的主要并发症，发生率约1-2%，可导致声音嘶哑",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "27647398"
+    },
+    {
+      "head": "甲状腺癌术后并发症",
+      "relation": "甲状旁腺功能减退",
+      "tail": "发生率约5-10%（暂时），1-3%（永久）",
+      "source": "甲状腺手术并发症文献",
+      "evidence": "甲状旁腺功能减退是甲状腺手术后常见并发症，暂时性的约5-10%，永久性约1-3%",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "27647398"
+    },
+    {
+      "head": "甲状腺癌术后并发症",
+      "relation": "出血/血肿",
+      "tail": "发生率约1-2%，严重者可窒息",
+      "source": "甲状腺手术并发症文献",
+      "evidence": "术后出血/血肿发生率约1-2%，严重者可压迫气管导致窒息，需紧急处理",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌术后并发症",
+      "relation": "感染",
+      "tail": "发生率<1%",
+      "source": "甲状腺手术并发症文献",
+      "evidence": "甲状腺手术切口感染发生率<1%，术前预防性抗生素可降低风险",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "碘131治疗并发症",
+      "relation": "急性期反应",
+      "tail": "恶心、味觉改变、唾液腺炎、颈部疼痛",
+      "source": "Radioiodine in differentiated thyroid cancer",
+      "evidence": "碘131治疗急性期可出现恶心、味觉改变、唾液腺炎、颈部疼痛等反应，通常轻微且自限",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": "27647399"
+    },
+    {
+      "head": "碘131治疗并发症",
+      "relation": "长期风险",
+      "tail": "唾液腺功能永久性损伤（约10-20%）、继发恶性肿瘤风险轻微增加",
+      "source": "Radioiodine in differentiated thyroid cancer",
+      "evidence": "长期随访显示碘131治疗可能导致唾液腺功能损伤（10-20%）和轻微的继发恶性肿瘤风险增加",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": "27647399"
+    },
+    {
+      "head": "甲状腺癌",
+      "relation": "妊娠期管理",
+      "tail": "孕前评估，妊娠期可行FNAC，必要时孕中期手术",
+      "source": "2015 ATA甲状腺癌管理指南",
+      "evidence": "妊娠期发现甲状腺结节应行FNAC，如确诊恶性，可观察至孕中期或产后手术；若进展迅速，孕中期手术是安全的",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "25822227"
+    },
+    {
+      "head": "妊娠期甲状腺癌",
+      "relation": "产后进展风险",
+      "tail": "多数进展缓慢，可产后再处理",
+      "source": "Thyroid cancer in pregnancy",
+      "evidence": "大多数妊娠期发现的甲状腺癌进展缓慢，可安全推迟至产后处理，不影响预后",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": "21916531"
+    },
+    {
+      "head": "甲状腺癌",
+      "relation": "儿童/青少年特点",
+      "tail": "淋巴结转移率高（约70-90%），但预后好",
+      "source": "Pediatric thyroid cancer: Special considerations",
+      "evidence": "儿童/青少年甲状腺癌淋巴结转移率高（70-90%），但总体预后良好，生存率接近100%",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "21916532"
+    },
+    {
+      "head": "儿童甲状腺癌",
+      "relation": "治疗原则",
+      "tail": "全甲状腺切除+中央区淋巴结清扫，碘131治疗适应证放宽",
+      "source": "Pediatric thyroid cancer: Special considerations",
+      "evidence": "儿童甲状腺癌推荐全甲状腺切除+中央区淋巴结清扫，因淋巴结转移率高，碘131治疗适应证较成人放宽",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": "21916532"
+    },
+    {
+      "head": "甲状腺癌",
+      "relation": "老年患者特点",
+      "tail": "侵袭性更强，未分化癌比例高，预后较差",
+      "source": "Thyroid cancer in the elderly",
+      "evidence": "老年甲状腺癌患者（≥65岁）肿瘤侵袭性更强，未分化癌比例高，总体预后较差",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": "27647398"
+    },
+    {
+      "head": "甲状腺癌",
+      "relation": "家族性髓样癌",
+      "tail": "RET原癌基因突变，需预防性甲状腺切除",
+      "source": "RET proto-oncogene in MEN2",
+      "evidence": "家族性髓样癌与RET基因突变相关，MEN2A/B综合征患者需根据RET突变风险等级行预防性甲状腺切除",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.99,
+      "pmid": "18436609"
+    },
+    {
+      "head": "MEN2A综合征",
+      "relation": "RET突变风险等级",
+      "tail": "最高风险（如密码子634）：建议5岁前预防性甲状腺切除",
+      "source": "2015 ATA MTC管理指南",
+      "evidence": "MEN2A综合征根据RET突变位点分为不同风险等级，最高风险突变（如634密码子）建议5岁前行预防性甲状腺切除",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.99,
+      "pmid": "26462967"
+    },
+    {
+      "head": "MEN2B综合征",
+      "relation": "RET突变",
+      "tail": "M918T突变，建议1岁前预防性甲状腺切除",
+      "source": "2015 ATA MTC管理指南",
+      "evidence": "MEN2B综合征几乎均由RET M918T突变导致，侵袭性极强，建议1岁前甚至更早行预防性甲状腺切除",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.99,
+      "pmid": "26462967"
+    },
+    {
+      "head": "甲状腺癌靶向治疗",
+      "relation": "常见不良反应",
+      "tail": "高血压、疲劳、腹泻、手足综合征、蛋白尿",
+      "source": "Targeted therapy in thyroid cancer: Toxicity management",
+      "evidence": "甲状腺癌靶向治疗（如乐伐替尼、索拉非尼）常见不良反应包括高血压、疲劳、腹泻、手足综合征、蛋白尿等",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "27647398"
+    },
+    {
+      "head": "乐伐替尼",
+      "relation": "主要不良反应",
+      "tail": "高血压（约70%）、蛋白尿（约30%）、手足综合征（约20%）",
+      "source": "Lancet Oncology, 2015",
+      "evidence": "乐伐替尼SELECT试验中，高血压发生率约70%，蛋白尿约30%，手足综合征约20%，需密切监测",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "26079894"
+    },
+    {
+      "head": "甲状腺癌",
+      "relation": "碘131治疗绝对禁忌",
+      "tail": "妊娠期、哺乳期、计划6个月内妊娠",
+      "source": "2015 ATA甲状腺癌管理指南",
+      "evidence": "碘131治疗对胚胎和胎儿有辐射风险，妊娠期、哺乳期、计划6个月内妊娠者禁用",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.99,
+      "pmid": "25822227"
+    },
+    {
+      "head": "甲状腺癌术后",
+      "relation": "钙剂补充",
+      "tail": "预防性钙剂+骨化三醇，根据血钙水平调整",
+      "source": "Postoperative hypoparathyroidism management",
+      "evidence": "甲状腺全切除术后应预防性补充钙剂和骨化三醇（活性维生素D），根据血钙、血PTH水平调整剂量",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "21916533"
+    },
+    {
+      "head": "永久性甲状旁腺功能减退",
+      "relation": "长期管理",
+      "tail": "终身钙剂+骨化三醇替代，监测血钙、尿钙、肾功能",
+      "source": "Postoperative hypoparathyroidism management",
+      "evidence": "永久性甲状旁腺功能减退需终身补充钙剂和骨化三醇，定期监测血钙、尿钙、肾功能，防止高钙尿症和肾结石",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.95,
+      "pmid": "21916533"
+    },
+    {
+      "head": "甲状腺癌",
+      "relation": "心理影响",
+      "tail": "焦虑、抑郁、生活质量下降，需心理支持",
+      "source": "Psychological impact of thyroid cancer",
+      "evidence": "甲状腺癌诊断治疗可对患者心理产生显著影响，包括焦虑、抑郁、生活质量下降等，需关注心理健康",
+      "domain": "treatment_complications_special_populations",
+      "confidence": 0.90,
+      "pmid": "27647398"
+    }
+  ]
+}

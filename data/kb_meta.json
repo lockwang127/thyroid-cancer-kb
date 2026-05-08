@@ -1,29 +1,51 @@
 {
   "name": "thyroid-cancer-kb",
   "version": "1.0.0",
-  "build_time": "2026-05-08T11:13:13.027266",
-  "total_triplets": 51,
+  "build_time": "2026-05-08T12:00:00.000000",
+  "total_triplets": 350,
   "domains": {
     "biomarkers": 14,
+    "clinical_trials": 38,
     "csco_2024": 12,
+    "csco_guideline": 41,
+    "diagnosis_prognosis": 28,
     "epidemiology": 12,
-    "treatment": 13
+    "molecular_biology_biomarkers": 40,
+    "nccn_ata_esmo_guideline": 41,
+    "new_targets_drug_development": 31,
+    "pathology_molecular": 26,
+    "real_world_evidence_prognosis": 34,
+    "treatment": 13,
+    "treatment_complications_special_populations": 20
   },
   "source_files": [
-    "biomarkers.json",
+    "literature_batch_csco_2024.json",
+    "literature_batch_molecular.json",
+    "literature_batch_nccn_ata_esmo.json",
+    "literature_batch_new_targets.json",
     "csco_2024.json",
+    "biomarkers.json",
+    "literature_batch_complications.json",
+    "literature_batch_pathology_molecular.json",
+    "literature_batch_rwe.json",
     "epidemiology.json",
+    "literature_batch_diagnosis_prognosis.json",
+    "literature_batch_clinical_trials.json",
     "treatment.json"
   ],
   "triplets_per_file": {
-    "biomarkers.json": 14,
+    "literature_batch_csco_2024.json": 41,
+    "literature_batch_molecular.json": 40,
+    "literature_batch_nccn_ata_esmo.json": 41,
+    "literature_batch_new_targets.json": 31,
     "csco_2024.json": 12,
+    "biomarkers.json": 14,
+    "literature_batch_complications.json": 20,
+    "literature_batch_pathology_molecular.json": 26,
+    "literature_batch_rwe.json": 34,
     "epidemiology.json": 12,
+    "literature_batch_diagnosis_prognosis.json": 28,
+    "literature_batch_clinical_trials.json": 38,
     "treatment.json": 13
-  },
-  "confidence_distribution": {
-    "high (>=0.9)": 50,
-    "medium (0.7-0.89)": 1,
-    "low (<0.7)": 0
   }
 }

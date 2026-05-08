@@ -1,0 +1,409 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌分子分型与生物标志物知识图谱",
+  "domain": "molecular_biology_biomarkers",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "甲状腺乳头状癌分子特征",
+      "relation": "BRAF V600E突变",
+      "tail": "约50%",
+      "source": "多中心基因组学研究",
+      "evidence": "BRAF V600E是PTC最常见的驱动基因突变",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺乳头状癌分子特征",
+      "relation": "RAS突变",
+      "tail": "约10-20%",
+      "source": "多中心基因组学研究",
+      "evidence": "RAS突变在滤泡变型PTC中较常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "31973933"
+    },
+    {
+      "head": "甲状腺乳头状癌分子特征",
+      "relation": "RET融合",
+      "tail": "约10-20%（儿童/放射后更高）",
+      "source": "多中心基因组学研究",
+      "evidence": "RET融合是PTC重要驱动事件",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "25033468"
+    },
+    {
+      "head": "甲状腺乳头状癌分子特征",
+      "relation": "NTRK融合",
+      "tail": "约1-5%",
+      "source": "多中心基因组学研究",
+      "evidence": "NTRK融合虽罕见但有靶向药物可用",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "25033468"
+    },
+    {
+      "head": "甲状腺乳头状癌分子特征",
+      "relation": "PAX8-PPARγ融合",
+      "tail": "约5-10%",
+      "source": "多中心基因组学研究",
+      "evidence": "PAX8-PPARγ融合在滤泡变型PTC中常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "25033468"
+    },
+    {
+      "head": "甲状腺滤泡癌分子特征",
+      "relation": "RAS突变",
+      "tail": "40-50%",
+      "source": "TCGA甲状腺癌数据",
+      "evidence": "RAS突变是FTC最常见的分子改变",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "25033468"
+    },
+    {
+      "head": "甲状腺滤泡癌分子特征",
+      "relation": "PAX8-PPARγ融合",
+      "tail": "约20-30%",
+      "source": "TCGA甲状腺癌数据",
+      "evidence": "PAX8-PPARγ融合是FTC重要驱动事件",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "25033468"
+    },
+    {
+      "head": "NIFTP",
+      "relation": "分子特征",
+      "tail": "RAS突变或PAX8-PPARγ融合常见，BRAF V600E阴性",
+      "source": "WHO 2022甲状腺肿瘤分类",
+      "evidence": "NIFTP是交界性肿瘤，分子特征与FTC/PTC重叠",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺髓样癌分子特征",
+      "relation": "RET突变",
+      "tail": "胚系突变（MEN2）约25%，体细胞突变约50%",
+      "source": "NCCN甲状腺癌指南",
+      "evidence": "RET突变是MTC核心驱动事件",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    },
+    {
+      "head": "甲状腺髓样癌分子特征",
+      "relation": "RAS突变",
+      "tail": "约40-50%（体细胞）",
+      "source": "NCCN甲状腺癌指南",
+      "evidence": "RAS突变在散发性MTC中常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "31712542"
+    },
+    {
+      "head": "甲状腺未分化癌分子特征",
+      "relation": "BRAF V600E突变",
+      "tail": "约30-50%",
+      "source": "TCGA/临床研究",
+      "evidence": "BRAF V600E是ATC重要驱动突变",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺未分化癌分子特征",
+      "relation": "RAS突变",
+      "tail": "约20-30%",
+      "source": "TCGA/临床研究",
+      "evidence": "RAS突变常与BRAF共存或独立出现",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺未分化癌分子特征",
+      "relation": "TP53突变",
+      "tail": "约60-70%",
+      "source": "TCGA/临床研究",
+      "evidence": "TP53突变是ATC去分化关键事件",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺未分化癌分子特征",
+      "relation": "CTNNB1突变",
+      "tail": "约30-40%",
+      "source": "TCGA/临床研究",
+      "evidence": "CTNNB1突变激活Wnt通路",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺未分化癌分子特征",
+      "relation": "TERT启动子突变",
+      "tail": "约70-80%",
+      "source": "临床研究",
+      "evidence": "TERT启动子突变与不良预后相关",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "24186859"
+    },
+    {
+      "head": "降钙素（Ct）",
+      "relation": "MTC诊断价值",
+      "tail": "MTC特异性标志物，术后监测复发",
+      "source": "CSCO/NCCN指南",
+      "evidence": "Ct是MTC最特异的肿瘤标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "CEA",
+      "relation": "MTC诊断价值",
+      "tail": "辅助诊断MTC，监测复发",
+      "source": "CSCO/NCCN指南",
+      "evidence": "CEA是MTC辅助肿瘤标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "Ct倍增时间",
+      "relation": "MTC预后价值",
+      "tail": "倍增时间<6个月提示侵袭性强",
+      "source": "NCCN甲状腺癌指南",
+      "evidence": "Ct倍增时间是MTC独立预后因素",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    },
+    {
+      "head": "Tg",
+      "relation": "DTC监测价值",
+      "tail": "DTC术后/RAI治疗后最重要的肿瘤标志物",
+      "source": "ATA/NCCN指南",
+      "evidence": "Tg由功能性甲状腺组织分泌",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.99,
+      "pmid": "25822227"
+    },
+    {
+      "head": "TgAb",
+      "relation": "DTC监测价值",
+      "tail": "干扰Tg检测，TgAb阳性提示复发风险增加",
+      "source": "ATA/NCCN指南",
+      "evidence": "TgAb是DTC独立监测指标",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "25822227"
+    },
+    {
+      "head": "BRAF V600E",
+      "relation": "PTC预后价值",
+      "tail": "与侵袭性特征相关，碘摄取能力下降",
+      "source": "多中心研究",
+      "evidence": "BRAF V600E突变PTC预后相对较差",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "RET融合",
+      "relation": "PTC预后价值",
+      "tail": "预后与经典PTC相当或略差",
+      "source": "临床研究",
+      "evidence": "RET融合PTC需密切随访",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "25033468"
+    },
+    {
+      "head": "RAS突变",
+      "relation": "FTC/NIFTP预后价值",
+      "tail": "预后相对较好",
+      "source": "临床研究",
+      "evidence": "RAS突变FTC/NIFTP侵袭性较低",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "25033468"
+    },
+    {
+      "head": "NTRK融合检测",
+      "relation": "方法",
+      "tail": "FISH、PCR、NGS均可检测",
+      "source": "临床检测指南",
+      "evidence": "NGS一次检测多个融合基因",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "25033468"
+    },
+    {
+      "head": "RET检测",
+      "relation": "方法",
+      "tail": "胚系检测用白细胞，体细胞检测用肿瘤组织",
+      "source": "NCCN甲状腺癌指南",
+      "evidence": "胚系RET突变需筛查家族成员",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    },
+    {
+      "head": "甲状腺癌多基因Panel",
+      "relation": "推荐检测",
+      "tail": "BRAF、RAS、RET、NTRK、PAX8-PPARγ、TP53、TERT等",
+      "source": "CSCO/NCCN指南",
+      "evidence": "多基因Panel提高检出率",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌NGS检测",
+      "relation": "优势",
+      "tail": "一次检测DNA+RNA，可检出突变和融合",
+      "source": "欧洲共识2025",
+      "evidence": "NGS是甲状腺癌分子检测金标准",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌液体活检",
+      "relation": "ctDNA应用",
+      "tail": "监测治疗反应、耐药和复发",
+      "source": "液体活检研究",
+      "evidence": "ctDNA在MTC/ATC中应用价值较高",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌外泌体",
+      "relation": "应用探索",
+      "tail": "外泌体miRNA可能辅助诊断",
+      "source": "基础研究",
+      "evidence": "外泌体是液体活检新方向",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.75,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌免疫微环境",
+      "relation": "PTC",
+      "tail": "淋巴细胞浸润常见，预后较好",
+      "source": "肿瘤免疫学研究",
+      "evidence": "PTC是免疫原性较强肿瘤",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌免疫微环境",
+      "relation": "ATC",
+      "tail": "免疫抑制微环境，但PD-L1可表达",
+      "source": "肿瘤免疫学研究",
+      "evidence": "ATC可从免疫治疗获益",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺癌PD-L1表达",
+      "relation": "ATC",
+      "tail": "约50-70% ATC表达PD-L1",
+      "source": "临床研究",
+      "evidence": "PD-L1表达是免疫治疗预测标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺癌TMB",
+      "relation": "ATC",
+      "tail": "中位TMB约5-15 mut/Mb，高于DTC",
+      "source": "临床研究",
+      "evidence": "ATC TMB较高，对免疫治疗可能敏感",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺癌MSI-H/dMMR",
+      "relation": "发生率",
+      "tail": "罕见，<1%",
+      "source": "临床研究",
+      "evidence": "MSI-H甲状腺癌可从免疫治疗获益",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌PD-L1检测",
+      "relation": "方法",
+      "tail": "IHC检测PD-L1表达（TPS或CPS）",
+      "source": "临床研究",
+      "evidence": "PD-L1 IHC是免疫治疗预测标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌EGFR突变",
+      "relation": "发生率",
+      "tail": "约1-3%，在ATC中略高",
+      "source": "临床研究",
+      "evidence": "EGFR突变在甲状腺癌中罕见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌MET扩增",
+      "relation": "发生率",
+      "tail": "约2-5%，在ATC中略高",
+      "source": "临床研究",
+      "evidence": "MET扩增是潜在治疗靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌FGFR异常",
+      "relation": "发生率",
+      "tail": "约2-5%",
+      "source": "临床研究",
+      "evidence": "FGFR异常是潜在治疗靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌IDH1突变",
+      "relation": "发生率",
+      "tail": "约1-3%",
+      "source": "临床研究",
+      "evidence": "IDH1突变在甲状腺癌中罕见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺激素受体（THR）突变",
+      "relation": "甲状腺癌意义",
+      "tail": "THR突变导致甲状腺激素抵抗，可能参与甲状腺癌发生",
+      "source": "基础研究",
+      "evidence": "THR是核受体，参与甲状腺分化",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": null
+    }
+  ]
+}

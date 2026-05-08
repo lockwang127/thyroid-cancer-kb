@@ -1,0 +1,349 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌真实世界数据与预后知识图谱",
+  "domain": "real_world_evidence_prognosis",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "甲状腺癌总体预后",
+      "relation": "10年生存率",
+      "tail": "约95%（整体），PTC>95%，FTC约85%，MTC约70%，ATC<20%",
+      "source": "SEER数据库/多中心研究",
+      "evidence": "甲状腺癌预后与病理类型密切相关",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "31539028"
+    },
+    {
+      "head": "PTC预后",
+      "relation": "5年生存率",
+      "tail": ">95%",
+      "source": "SEER数据库",
+      "evidence": "PTC是预后最好的恶性肿瘤之一",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.99,
+      "pmid": "31539028"
+    },
+    {
+      "head": "FTC预后",
+      "relation": "5年生存率",
+      "tail": "约85%",
+      "source": "SEER数据库",
+      "evidence": "FTC预后略差PTC",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "MTC预后",
+      "relation": "5年生存率",
+      "tail": "约70%（散发），家族性略差",
+      "source": "NCCN指南/多中心数据",
+      "evidence": "MTC预后与降钙素倍增时间相关",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    },
+    {
+      "head": "ATC预后",
+      "relation": "中位生存期",
+      "tail": "3-6个月",
+      "source": "NCCN指南/多中心数据",
+      "evidence": "ATC是预后最差的甲状腺癌",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.99,
+      "pmid": "28462109"
+    },
+    {
+      "head": "DTC术后复发率",
+      "relation": "10年复发率",
+      "tail": "约10-30%",
+      "source": "多中心临床数据",
+      "evidence": "DTC术后复发率较低",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "DTC复发部位",
+      "relation": "最常见",
+      "tail": "颈部淋巴结（60-80%），其次为肺（10-20%）",
+      "source": "多中心临床数据",
+      "evidence": "DTC复发以局部和肺转移常见",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "DTC肺转移预后",
+      "relation": "碘摄取能力",
+      "tail": "碘阳性肺转移10年生存率>90%，碘阴性<50%",
+      "source": "NCCN指南",
+      "evidence": "碘摄取能力是肺转移预后因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "DTC骨转移预后",
+      "relation": "中位生存",
+      "tail": "约3-5年",
+      "source": "多中心临床数据",
+      "evidence": "骨转移预后差于肺转移",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "MTC术后复发率",
+      "relation": "10年复发率",
+      "tail": "约30-50%",
+      "source": "NCCN指南/多中心数据",
+      "evidence": "MTC术后复发率高于DTC",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    },
+    {
+      "head": "ATC临床表现",
+      "relation": "常见症状",
+      "tail": "迅速增大的颈部肿块、声音嘶哑、吞咽困难、呼吸困难",
+      "source": "NCCN指南",
+      "evidence": "ATC临床进展迅速",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.99,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺癌年龄因素",
+      "relation": "<55岁预后",
+      "tail": "预后较好，AJCC分期更优",
+      "source": "AJCC第8版分期",
+      "evidence": "年龄是甲状腺癌重要预后因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌年龄因素",
+      "relation": "≥55岁预后",
+      "tail": "预后变差，AJCC分期更晚",
+      "source": "AJCC第8版分期",
+      "evidence": "年龄≥55岁是预后不良因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌性别因素",
+      "relation": "女性预后",
+      "tail": "女性发病率高但预后略好于男性",
+      "source": "SEER数据库",
+      "evidence": "性别是甲状腺癌预后影响因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "肿瘤大小与预后",
+      "relation": "PTMC（≤1cm）",
+      "tail": "预后极好，10年生存率>99%",
+      "source": "多中心数据",
+      "evidence": "PTMC是低危PPC",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "26222718"
+    },
+    {
+      "head": "肿瘤大小与预后",
+      "relation": ">4cm肿瘤",
+      "tail": "预后变差",
+      "source": "AJCC第8版分期",
+      "evidence": "肿瘤大小是T分期因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "淋巴结转移与预后",
+      "relation": "cNO处理",
+      "tail": "可观察或预防性清扫，不影响总体生存",
+      "source": "ATA/NCCN指南",
+      "evidence": "淋巴结转移是DTC复发因素但非死亡因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "淋巴结转移与预后",
+      "relation": "cN1b处理",
+      "tail": "需治疗性清扫，降低局部复发",
+      "source": "NCCN指南",
+      "evidence": "侧颈淋巴结转移需彻底清扫",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "BRAF V600E预后",
+      "relation": "PTC",
+      "tail": "与侵袭性特征相关，预后略差",
+      "source": "多中心研究",
+      "evidence": "BRAF V600E PTC具有侵袭性",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "TERT启动子突变",
+      "relation": "DTC",
+      "tail": "与去分化相关，预后差",
+      "source": "基础研究/临床研究",
+      "evidence": "TERT启动子突变是DTC去分化标志",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": "24186859"
+    },
+    {
+      "head": "TP53突变",
+      "relation": "DTC去分化",
+      "tail": "与去分化相关，提示ATC转化风险",
+      "source": "临床研究",
+      "evidence": "TP53突变是去分化关键事件",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": "28462109"
+    },
+    {
+      "head": "甲状腺癌妊娠",
+      "relation": "影响",
+      "tail": "多数进展缓慢，可观察等待至分娩后",
+      "source": "NCCN指南",
+      "evidence": "妊娠期甲状腺癌多数惰性",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌诊治延误",
+      "relation": "影响",
+      "tail": "惰性疾病延误诊治对预后影响极小",
+      "source": "真实世界研究",
+      "evidence": "DTC进展缓慢，短期延误不影响生存",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌过度治疗",
+      "relation": "问题",
+      "tail": "PTMC过度手术导致并发症，主动监测可行",
+      "source": "日本Kuma研究/ATA指南",
+      "evidence": "部分DTC可主动监测避免过度治疗",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "26222718"
+    },
+    {
+      "head": "TSH抑制治疗并发症",
+      "relation": "心房颤动",
+      "tail": "≥60岁、冠心病患者风险增加",
+      "source": "真实世界数据",
+      "evidence": "过度TSH抑制增加心血管风险",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "TSH抑制治疗并发症",
+      "relation": "骨质疏松",
+      "tail": "绝经后女性、老年男性风险增加",
+      "source": "真实世界数据",
+      "evidence": "长期TSH抑制可导致骨质疏松",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "碘131治疗继发肿瘤",
+      "relation": "风险",
+      "tail": "累积剂量>600 mCi增加继发肿瘤风险",
+      "source": "真实世界研究",
+      "evidence": "碘131治疗需权衡获益和风险",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "碘131治疗唾液腺损伤",
+      "relation": "发生率",
+      "tail": "约10-30%，与剂量相关",
+      "source": "真实世界数据",
+      "evidence": "碘131可导致慢性唾液腺功能受损",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "碘131治疗骨髓抑制",
+      "relation": "发生率",
+      "tail": "约5-15%，多为一过性",
+      "source": "真实世界数据",
+      "evidence": "碘131可导致骨髓抑制",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌二次原发癌",
+      "relation": "风险增加",
+      "tail": "乳腺癌、肾癌等（可能与遗传或放疗相关）",
+      "source": "SEER数据库",
+      "evidence": "DTC患者二次原发癌风险略增",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "儿童DTC特点",
+      "relation": "预后",
+      "tail": "侵袭性强但预后仍好",
+      "source": "NCCN指南",
+      "evidence": "儿童DTC生物学行为不同于成人",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "DTC长期生存者",
+      "relation": "生活质量",
+      "tail": "多数生活质量良好，但需终身随访",
+      "source": "真实世界研究",
+      "evidence": "DTC长期生存者生活质量接近常人",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "放射性碘抵抗机制",
+      "relation": "NIS表达下调",
+      "tail": "NIS表达下调导致碘摄取能力下降",
+      "source": "基础研究",
+      "evidence": "NIS是碘摄取关键蛋白",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "家族性MTC",
+      "relation": "MEN2A",
+      "tail": "RET突变携带者需预防性甲状腺切除",
+      "source": "NCCN指南",
+      "evidence": "预防性手术可预防MTC发生",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌新靶点与新药研发知识图谱",
+  "domain": "new_targets_drug_development",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "RET抑制剂",
+      "tail": "Selpercatinib、Pralsetinib已获批用于RET突变MTC",
+      "source": "LIBRETTO-001/ARROW研究",
+      "evidence": "RET是MTC核心驱动靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.95,
+      "pmid": "32954825"
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "BRAF/MEK抑制剂",
+      "tail": "达拉非尼+曲美替尼在BRAF V600E突变ATC中探索",
+      "source": "ROAR篮子研究",
+      "evidence": "BRAF V600E是ATC可靶向驱动突变",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.90,
+      "pmid": "33627337"
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "NTRK抑制剂",
+      "tail": "拉罗替尼、恩曲替尼对NTRK融合甲状腺癌有效",
+      "source": "篮子试验",
+      "evidence": "NTRK融合虽罕见但有靶向药物可用",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.95,
+      "pmid": "29571294"
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "FGFR抑制剂",
+      "tail": "Pemigatinib、Infigratinib在FGFR异常甲状腺癌中探索",
+      "source": "FIGHT-202/202研究",
+      "evidence": "FGFR异常甲状腺癌可从FGFR抑制剂获益",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "MET抑制剂",
+      "tail": "Tepotinib、Capmatinib等MET抑制剂正在探索",
+      "source": "临床研究",
+      "evidence": "MET异常是潜在治疗靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "IDH1抑制剂",
+      "tail": "Ivosidenib在IDH1突变甲状腺癌中探索",
+      "source": "ClarIDHy研究扩展队列",
+      "evidence": "IDH1突变甲状腺癌可能获益",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "HER2 ADC",
+      "tail": "Trastuzumab deruxtecan在HER2阳性甲状腺癌中探索",
+      "source": "DESTINY-PanTumor研究",
+      "evidence": "HER2阳性甲状腺癌可能获益",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "TROP2 ADC",
+      "tail": "Sacituzumab govitecan在TROP2高表达甲状腺癌中探索",
+      "source": "临床研究",
+      "evidence": "TROP2在甲状腺癌中高表达",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "CEA ADC",
+      "tail": "CEA抗体偶联药物在MTC中探索",
+      "source": "临床前研究",
+      "evidence": "CEA是MTC特异性抗原",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "PD-1/CTLA-4双抗",
+      "tail": "Cadonilimab（AK104）在ATC中探索",
+      "source": "临床研究",
+      "evidence": "双免疫检查点抑制剂增强抗肿瘤免疫",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "TIGIT抑制剂",
+      "tail": "Tiragolumab等TIGIT抑制剂与PD-1抑制剂联合探索",
+      "source": "临床研究",
+      "evidence": "TIGIT是新兴免疫检查点靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "LAG-3抑制剂", 
+      "tail": "Relatlimab等LAG-3抑制剂联合PD-1抑制剂探索",
+      "source": "临床研究",
+      "evidence": "LAG-3是免疫治疗新靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "TIM-3抑制剂",
+      "tail": "TIM-3抑制剂单药或联合PD-1抑制剂正在研究",
+      "source": "早期临床研究",
+      "evidence": "TIM-3是T细胞耗竭标志物",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "CD47/SIRPα抑制剂",
+      "tail": "Magrolimab等CD47抑制剂正在实体瘤中探索",
+      "source": "临床研究",
+      "evidence": "CD47是别吃我信号",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "CSF-1R抑制剂",
+      "tail": "CSF-1R抑制剂调控肿瘤相关巨噬细胞",
+      "source": "临床前研究",
+      "evidence": "CSF-1R是免疫治疗联合靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "TGF-β抑制剂",
+      "tail": "Galunisertib等TGF-β抑制剂与免疫治疗联合探索",
+      "source": "临床前研究",
+      "evidence": "TGF-β是潜在治疗靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "STING激动剂",
+      "tail": "STING激动剂激活先天免疫正在探索",
+      "source": "临床前研究",
+      "evidence": "STING通路激活抗肿瘤免疫",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "TLR激动剂",
+      "tail": "TLR7/8激动剂激活免疫正在探索",
+      "source": "临床前研究",
+      "evidence": "TLR激动剂是免疫激动剂", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "CAR-T细胞治疗",
+      "tail": "CEA CAR-T、TAG72 CAR-T在MTC/ATC中探索",
+      "source": "早期临床研究",
+      "evidence": "CAR-T是甲状腺癌治疗方向", 
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "TCR-T细胞治疗",
+      "tail": "NY-ESO-1 TCR-T等正在实体瘤中探索",
+      "source": "临床研究", 
+      "evidence": "TCR-T利用肿瘤抗原靶向治疗",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新靶点", 
+      "relation": "肿瘤疫苗",
+      "tail": "新抗原疫苗、癌睾抗原疫苗等在甲状腺癌辅助治疗中探索", 
+      "source": "临床研究",
+      "evidence": "肿瘤疫苗是甲状腺癌免疫治疗方向",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.70
+    },
+    {
+      "head": "甲状腺癌新靶点", 
+      "relation": "溶瘤病毒", 
+      "tail": "溶瘤病毒直接杀伤肿瘤并激活免疫",
+      "source": "临床前/早期临床研究",
+      "evidence": "溶瘤病毒是免疫激动疗法", 
+      "domain": "new_targets_drug_development",
+      "confidence": 0.70
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "mTOR抑制剂",
+      "tail": "依维莫司等mTOR抑制剂在RAIR-DTC中探索", 
+      "source": "临床研究",
+      "evidence": "mTOR通路在甲状腺癌中异常激活",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点", 
+      "relation": "PI3K/AKT抑制剂", 
+      "tail": "Alpelisib等PI3K抑制剂在甲状腺癌中探索",
+      "source": "临床前/早期临床研究", 
+      "evidence": "PI3K通路异常激活参与甲状腺癌发生", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新靶点",
+      "relation": "HDAC抑制剂",
+      "tail": "Panobinostat等HDAC抑制剂与免疫治疗联合探索",
+      "source": "临床前研究", 
+      "evidence": "HDAC抑制剂可增强免疫应答", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.75
+    },
+    {
+      "head": "甲状腺癌新药研发方向", 
+      "relation": "RET耐药后治疗", 
+      "tail": "RET G810突变可用下一代RET抑制剂", 
+      "source": "临床研究", 
+      "evidence": "了解耐药机制指导后续治疗", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.85
+    },
+    {
+      "head": "甲状腺癌新药研发方向", 
+      "relation": "BRAF耐药后治疗", 
+      "tail": "BRAF V600E耐药可用MEK抑制剂联合", 
+      "source": "临床前研究", 
+      "evidence": "联合用药克服BRAF抑制剂耐药", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.85
+    },
+    {
+      "head": "甲状腺癌新药研发方向", 
+      "relation": "免疫治疗耐药机制", 
+      "tail": "T细胞耗竭、immunosuppressive微环境导致耐药", 
+      "source": "临床研究", 
+      "evidence": "免疫微环境重塑是克服耐药关键", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.85
+    },
+    {
+      "head": "甲状腺癌精准医学",
+      "relation": "分子分型指导治疗", 
+      "tail": "基于基因组学特征选择靶向/免疫治疗", 
+      "source": "篮子试验研究", 
+      "evidence": "分子标志物指导甲状腺癌精准治疗", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.85
+    },
+    {
+      "head": "甲状腺癌液体活检",
+      "relation": "ctDNA应用", 
+      "tail": "ctDNA可监测治疗反应和耐药突变", 
+      "source": "临床研究", 
+      "evidence": "液体活检指导甲状腺癌精准治疗", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.80
+    },
+    {
+      "head": "甲状腺癌新药研发", 
+      "relation": "中国创新药", 
+      "tail": "阿帕替尼、安罗替尼等已获批甲状腺癌适应证", 
+      "source": "中国NMPA批准", 
+      "evidence": "中国原研TKI在甲状腺癌中应用", 
+      "domain": "new_targets_drug_development", 
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌补充知识图谱 - 病理亚型与分子特征",
+  "domain": "pathology_molecular",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "甲状腺乳头状癌",
+      "relation": "病理亚型",
+      "tail": "经典型、滤泡型、高细胞型、柱状细胞型、弥漫硬化型、鞋钉型等",
+      "source": "WHO甲状腺肿瘤分类（第5版，2022）",
+      "evidence": "PTC主要亚型包括经典型（最常见）、滤泡型、高细胞型、柱状细胞型、弥漫硬化型、鞋钉型等，其中高细胞型、柱状细胞型预后较差",
+      "domain": "pathology_molecular",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "乳头状癌高细胞亚型",
+      "relation": "预后意义",
+      "tail": "侵袭性较强，复发和死亡率较高",
+      "source": "WHO甲状腺肿瘤分类（第5版，2022）",
+      "evidence": "高细胞亚型（tall cell variant）以肿瘤细胞高度>宽度2倍为特征，侵袭性较强，预后较经典型差",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "乳头状癌弥漫硬化亚型",
+      "relation": "临床特点",
+      "tail": "年轻女性多见，常伴淋巴结转移，易远处转移",
+      "source": "Diffuse sclerosing variant of papillary thyroid carcinoma",
+      "evidence": "弥漫硬化亚型多见于年轻女性，常伴广泛淋巴管侵犯和多灶性病变，淋巴结和远处转移率较高",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺滤泡癌",
+      "relation": "诊断标准",
+      "tail": "包膜/血管侵犯是诊断滤泡癌的必要条件",
+      "source": "WHO甲状腺肿瘤分类（第5版，2022）",
+      "evidence": "滤泡癌的诊断依赖于包膜侵犯和/或血管侵犯，仅靠细胞学无法区分滤泡癌与滤泡性腺瘤",
+      "domain": "pathology_molecular",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺滤泡癌",
+      "relation": "分子特征",
+      "tail": "RAS突变为主，PAX8-PPARG融合约30-35%",
+      "source": "Molecular pathogenesis of follicular thyroid carcinoma",
+      "evidence": "滤泡癌的主要分子改变为RAS突变（40-50%）和PAX8-PPARG融合（约30-35%），BRAF突变罕见",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺低分化癌",
+      "relation": "定义",
+      "tail": "滤泡细胞来源的恶性肿瘤，具有有限分化特征",
+      "source": "WHO甲状腺肿瘤分类（第5版，2022）",
+      "evidence": "低分化癌定义为甲状腺滤泡细胞来源、显示有限分化证据（如岛状/梁状/实性生长模式）、高于分化型甲状腺癌的致死率",
+      "domain": "pathology_molecular",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺低分化癌",
+      "relation": "预后",
+      "tail": "介于分化型与未分化癌之间，5年生存率约50-60%",
+      "source": "Poorly differentiated thyroid carcinoma: A review",
+      "evidence": "低分化癌的预后介于分化型与未分化癌之间，5年生存率约50-60%，远处转移常见",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺髓样癌",
+      "relation": "起源细胞",
+      "tail": "甲状腺旁滤泡细胞（C细胞）",
+      "source": "Medullary Thyroid Carcinoma: A Review",
+      "evidence": "甲状腺髓样癌起源于甲状腺旁滤泡细胞（C细胞），可分泌降钙素和癌胚抗原",
+      "domain": "pathology_molecular",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺髓样癌",
+      "relation": "分子特征",
+      "tail": "RET突变（散发性约50%，家族性>95%）",
+      "source": "RET proto-oncogene in MTC",
+      "evidence": "散发性MTC约50%存在RET突变，家族性MTC（MEN2）几乎100%存在RET突变",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺未分化癌",
+      "relation": "起源",
+      "tail": "通常由分化型癌去分化而来",
+      "source": "Anaplastic Thyroid Cancer: Molecular Pathogenesis",
+      "evidence": "大多数未分化癌由已存在的分化型癌（如PTC、FTC）去分化而来，分子特征为TP53突变和TERT启动子突变高发",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "BRAF V600E突变",
+      "relation": "检测方法",
+      "tail": "免疫组化（VE1抗体）、PCR、NGS",
+      "source": "BRAF testing in thyroid cancer",
+      "evidence": "BRAF V600E可通过免疫组化（VE1抗体）、PCR（ARMS-PCR）或NGS检测，免疫组化可作为初筛",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "BRAF V600E突变",
+      "relation": "临床应用",
+      "tail": "辅助诊断、判断预后、预测碘131治疗反应",
+      "source": "Clinical utility of BRAF V600E testing",
+      "evidence": "BRAF V600E检测有助于PTC的辅助诊断、预后判断及预测碘131治疗的敏感性",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "ctDNA检测",
+      "relation": "甲状腺癌应用",
+      "tail": "晚期/难治性患者的动态监测和靶向治疗指导",
+      "source": "ctDNA in thyroid cancer management",
+      "evidence": "ctDNA检测可用于晚期甲状腺癌的动态监测、分子特征分析和靶向治疗选择",
+      "domain": "pathology_molecular",
+      "confidence": 0.85,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌液体活检",
+      "relation": "临床价值",
+      "tail": "组织活检的补充，实现无创分子分型",
+      "source": "Liquid biopsy in thyroid cancer",
+      "evidence": "液体活检（ctDNA、CTC）可作为组织活检的补充手段，实现甲状腺癌的无创分子分型和动态监测",
+      "domain": "pathology_molecular",
+      "confidence": 0.85,
+      "pmid": null
+    },
+    {
+      "head": "NTRK融合阳性甲状腺癌",
+      "relation": "靶向治疗",
+      "tail": "拉罗替尼、恩曲替尼有效率约70-80%",
+      "source": "NTRK inhibitors in thyroid cancer",
+      "evidence": "NTRK融合阳性甲状腺癌对TRK抑制剂（拉罗替尼、恩曲替尼）反应良好，客观有效率约70-80%",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "RET融合阳性甲状腺癌",
+      "relation": "靶向治疗",
+      "tail": "塞尔帕替尼、普拉替尼有效率约60-70%",
+      "source": "RET inhibitors in thyroid cancer",
+      "evidence": "RET融合阳性甲状腺癌对RET抑制剂（塞尔帕替尼、普拉替尼）敏感，客观有效率约60-70%",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺嗜酸细胞癌",
+      "relation": "病理特征",
+      "tail": "富于嗜酸性细胞质，线粒体增多",
+      "source": "Hürthle cell carcinoma: A review",
+      "evidence": "嗜酸细胞癌（Hürthle细胞癌）以富含嗜酸性颗粒细胞质的瘤细胞为特征，电镜下可见大量线粒体",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺嗜酸细胞癌",
+      "relation": "分子特征",
+      "tail": "线粒体DNA突变为主，RAS突变",
+      "source": "Molecular features of Hürthle cell carcinoma",
+      "evidence": "嗜酸细胞癌的分子特征以线粒体DNA突变为主，其次为RAS突变，缺乏BRAF V600E突变",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺微小乳头状癌",
+      "relation": "定义",
+      "tail": "肿瘤直径≤1cm",
+      "source": "WHO甲状腺肿瘤分类（第5版，2022）",
+      "evidence": "甲状腺微小乳头状癌（PTMC）定义为肿瘤最大径≤1cm的乳头状癌，发病率高，预后极佳",
+      "domain": "pathology_molecular",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺微小乳头状癌",
+      "relation": "主动监测",
+      "tail": "低危PTMC可考虑积极监测而非立即手术",
+      "source": "Active surveillance for PTMC",
+      "evidence": "对于低危PTMC，日本Kuma医院等中心推荐可进行主动监测，暂不手术，避免过度治疗",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺微小乳头状癌",
+      "relation": "高危特征",
+      "tail": "腺外侵犯、淋巴结转移、细胞学高危、BRAF突变",
+      "source": "Risk stratification of PTMC",
+      "evidence": "PTMC的高危特征包括腺外侵犯、淋巴结转移、Bethesda V-VI类细胞学、BRAF V600E突变等，提示需积极干预",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌基因检测套餐",
+      "relation": "NCCN推荐",
+      "tail": "BRAF V600E、TERT、RET、NTRK",
+      "source": "NCCN Guidelines Thyroid Carcinoma 2024",
+      "evidence": "NCCN指南推荐的甲状腺癌基因检测包括BRAF V600E、TERT启动子、RET融合/突变、NTRK融合等",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "碘抵抗分化型甲状腺癌",
+      "relation": "定义",
+      "tail": "RAI累积剂量≥600mCi仍持续存在或复发",
+      "source": "Radioiodine-refractory DTC: Definition",
+      "evidence": "碘抵抗DTC定义为：1）远处转移灶不摄碘；2）摄碘病灶在RAI累积剂量≥600mCi后仍进展；3）多次RAI治疗后摄碘病灶仍复发",
+      "domain": "pathology_molecular",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "碘抵抗分化型甲状腺癌",
+      "relation": "治疗选择",
+      "tail": "TKI靶向治疗（乐伐替尼、索拉非尼）、免疫治疗、局部治疗",
+      "source": "Treatment of RAI-refractory DTC",
+      "evidence": "碘抵抗DTC的治疗选择包括TKI靶向治疗（如乐伐替尼、索拉非尼）、免疫治疗及局部治疗（手术、放疗、消融）",
+      "domain": "pathology_molecular",
+      "confidence": 0.90,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌PD-1/PD-L1表达",
+      "relation": "临床意义",
+      "tail": "未分化癌阳性率较高，可考虑免疫治疗",
+      "source": "PD-L1 expression in thyroid cancer",
+      "evidence": "PD-L1在甲状腺未分化癌中表达率较高（约40-60%），可能从PD-1/PD-L1抑制剂治疗中获益",
+      "domain": "pathology_molecular",
+      "confidence": 0.85,
+      "pmid": null
+    },
+    {
+      "head": "甲状腺癌免疫微环境",
+      "relation": "特点",
+      "tail": "PD-L1表达、肿瘤浸润淋巴细胞、MSI-H",
+      "source": "Immunology of thyroid cancer",
+      "evidence": "甲状腺癌的免疫微环境特征包括PD-L1表达、肿瘤浸润淋巴细胞（TILs）、微卫星不稳定性（MSI-H）等，可指导免疫治疗",
+      "domain": "pathology_molecular",
+      "confidence": 0.85,
+      "pmid": null
+    }
+  ]
+}

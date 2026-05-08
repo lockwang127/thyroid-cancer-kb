@@ -1,0 +1,417 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌NCCN/ATA/ESMO指南知识图谱",
+  "domain": "nccn_ata_esmo_guideline",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "NCCN甲状腺癌指南2025",
+      "relation": "版本",
+      "tail": "NCCN Guidelines Version 1.2025，2025年发布",
+      "source": "NCCN Guidelines Version 1.2025",
+      "evidence": "NCCN指南定期更新反映最新循证医学证据",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南DTC治疗",
+      "relation": "低危PTC",
+      "tail": "腺叶切除±峡部切除，术后TSH抑制（0.5-2.0 mU/L）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "低危PTC不常规推荐全甲状腺切除",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南DTC治疗",
+      "relation": "中高危DTC",
+      "tail": "全甲状腺切除±淋巴结清扫，术后碘131治疗",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "中高危DTC推荐全切除",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南碘131治疗",
+      "relation": "清甲指征",
+      "tail": "中高危DTC术后清甲，低危个体化决定",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "清甲清除残留甲状腺组织",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南碘131治疗",
+      "relation": "清灶指征",
+      "tail": "已知功能性转移灶、清甲后全身扫描阳性",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "清灶治疗降低复发率和死亡率",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南RAIR-DTC",
+      "relation": "一线靶向",
+      "tail": "仑伐替尼（SELECT试验），索拉非尼（DECISION试验）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "仑伐替尼是RAIR-DTC标准一线靶向",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南MTC治疗",
+      "relation": "手术",
+      "tail": "全甲状腺切除+中央区+侧颈区淋巴结清扫",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "MTC需更彻底的手术",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南MTC靶向",
+      "relation": "RET突变",
+      "tail": "Selpercatinib（LIBRETTO-001）、Pralsetinib（ARROW）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "RET抑制剂是RET突变MTC首选",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南MTC靶向",
+      "relation": "进展性MTC",
+      "tail": "Cabozantinib、Vandetanib（RET野生型）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "多靶点TKI是MTC治疗选择",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南ATC治疗",
+      "relation": "策略",
+      "tail": "多学科综合治疗（手术+放疗+化疗±免疫治疗）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "ATC需积极综合治疗",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南ATC靶向",
+      "relation": "BRAF V600E突变",
+      "tail": "达拉非尼+曲美替尼",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "BRAF抑制剂联合MEK抑制剂治疗BRAF突变ATC",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "ATA指南2015",
+      "relation": "复发风险分层",
+      "tail": "低危、中危、高危（依据病理特征和分子标志物）",
+      "source": "2015 ATA甲状腺癌管理指南",
+      "evidence": "ATA风险分层指导术后治疗决策",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.99,
+      "pmid": "25822227"
+    },
+    {
+      "head": "ATA指南2015",
+      "relation": "TgAb监测",
+      "tail": "TgAb阳性干扰Tg检测，需同时监测TgAb",
+      "source": "2015 ATA甲状腺癌管理指南",
+      "evidence": "TgAb是独立监测指标",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.99,
+      "pmid": "25822227"
+    },
+    {
+      "head": "ESMO指南甲状腺癌",
+      "relation": "DTC治疗",
+      "tail": "与NCCN指南基本一致",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "ESMO指南反映欧洲临床实践",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南MTC",
+      "relation": "RET检测",
+      "tail": "所有MTC患者推荐RET基因检测",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "RET状态指导MTC靶向治疗",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南甲状腺结节评估",
+      "relation": "超声TI-RADS分类",
+      "tail": "TI-RADS 1-5类，指导FNA指征",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "TI-RADS是甲状腺结节标准评估工具",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南FNA指征",
+      "relation": "TI-RADS 5类",
+      "tail": "立即FNA",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "TI-RADS 5类恶性风险>85%，需FNA",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南FNA指征",
+      "relation": "TI-RADS 4类",
+      "tail": "结节≥1cm建议FNA",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "TI-RADS 4类恶性风险5-85%",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南FNA指征",
+      "relation": "TI-RADS 3类",
+      "tail": "结节≥1.5-2cm可考虑FNA",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "TI-RADS 3类恶性风险<5%",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南Bethesda分类",
+      "relation": "细胞学诊断",
+      "tail": "I-VI类，指导后续处理",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "Bethesda是FNA细胞学标准报告系统",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南基因检测",
+      "relation": "推荐检测",
+      "tail": "BRAF、RET、RAS、NTRK、PAX8-PPARγ",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "分子标志物指导甲状腺癌精准诊疗",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南分子检测时机",
+      "relation": "FNA不确定标本",
+      "tail": "Bethesda III-IV类可考虑分子检测",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "分子检测提高诊断准确性",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南孕妇甲状腺癌",
+      "relation": "处理策略",
+      "tail": "可观察等待，分娩后治疗；必要时孕中期手术",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "孕妇甲状腺癌多数进展缓慢",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南孕妇甲状腺癌",
+      "relation": "碘131禁忌",
+      "tail": "妊娠期、哺乳期绝对禁忌碘131",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "碘131对胎儿甲状腺有致命损伤",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.99,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南儿童甲状腺癌",
+      "relation": "特点",
+      "tail": "侵袭性强，淋巴结转移率高，复发率高",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "儿童DTC生物学行为不同于成人",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南儿童甲状腺癌",
+      "relation": "手术范围",
+      "tail": "全甲状腺切除+淋巴结清扫更常用",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "儿童DTC更需积极手术",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南碘131治疗",
+      "relation": "剂量调整",
+      "tail": "儿童患者碘131剂量需按体重调整",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "儿童碘131治疗需平衡疗效和继发肿瘤风险",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南随访",
+      "relation": "DTC术后",
+      "tail": "前2年每3-6个月，之后每年一次",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "规律随访早期发现复发",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南TgAb监测",
+      "relation": "随访意义",
+      "tail": "TgAb持续阳性或转为阳性提示可能复发",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "TgAb是DTC术后独立监测指标",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南MTC随访",
+      "relation": "监测指标",
+      "tail": "降钙素、CEA、颈部超声、CT",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "降钙素和CEA是MTC特异性标志物",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南ATC多学科",
+      "relation": "综合治疗",
+      "tail": "手术+放疗+化疗+免疫治疗多学科讨论",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "ATC治疗需多学科协作",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南ATC免疫治疗",
+      "relation": "探索",
+      "tail": "PD-1抑制剂在ATC中探索",
+      "source": "NCCN Guidelines 2025/临床研究",
+      "evidence": "免疫治疗在ATC中有一定前景",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.85,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南临床试验",
+      "relation": "推荐",
+      "tail": "鼓励患者参加甲状腺癌新药临床试验",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "临床试验推动治疗进展",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南生存保健",
+      "relation": "长期管理",
+      "tail": "TSH抑制治疗需平衡获益与风险",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "长期TSH抑制需监测心血管和骨健康",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南心理支持",
+      "relation": "必要性",
+      "tail": "甲状腺癌患者需心理支持和生活质量评估",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "心理支持改善生活质量",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.90,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南遗传咨询",
+      "relation": "MEN2综合征",
+      "tail": "RET胚系突变家族成员需遗传咨询和基因检测",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "MEN2为常染色体显性遗传",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南家族性MTC",
+      "relation": "预防性手术",
+      "tail": "依据RET突变风险等级决定手术时机",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "高风险RET突变需早期预防性甲状腺切除",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南放射性碘防护",
+      "relation": "隔离要求",
+      "tail": "住院隔离，避免接触孕妇和儿童",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "碘131治疗需辐射防护",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南唾液腺保护",
+      "relation": "碘131治疗",
+      "tail": "酸刺激、饮水、必要时唾液腺防护",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "碘131可导致唾液腺功能受损",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.90,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南继发肿瘤风险",
+      "relation": "碘131治疗",
+      "tail": "累积剂量>600 mCi增加继发肿瘤风险",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "碘131治疗需权衡获益和风险",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.90,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南微创消融",
+      "relation": "适应证",
+      "tail": "良性结节、低危微小癌（主动监测替代）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "消融是部分患者的治疗选择",
+      "domain": "nccn_ata_esmo_guideline",
+      "confidence": 0.90,
+      "pmid": "NCCN2025"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/thyroid-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "甲状腺癌临床试验数据知识图谱",
+  "domain": "clinical_trials",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "SELECT研究",
+      "relation": "研究设计",
+      "tail": "仑伐替尼 vs 安慰剂治疗RAIR-DTC",
+      "source": "SELECT研究",
+      "evidence": "仑伐替尼注册III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "27211691"
+    },
+    {
+      "head": "SELECT研究",
+      "relation": "主要终点PFS",
+      "tail": "18.3个月 vs 3.6个月（安慰剂）",
+      "source": "SELECT研究",
+      "evidence": "仑伐替尼PFS获益显著",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "27211691"
+    },
+    {
+      "head": "DECISION研究",
+      "relation": "研究设计",
+      "tail": "索拉非尼 vs 安慰剂治疗RAIR-DTC",
+      "source": "DECISION研究",
+      "evidence": "索拉非尼注册III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "25033468"
+    },
+    {
+      "head": "DECISION研究",
+      "relation": "主要终点PFS",
+      "tail": "10.8个月 vs 5.8个月（安慰剂）",
+      "source": "DECISION研究",
+      "evidence": "索拉非尼PFS获益显著",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "25033468"
+    },
+    {
+      "head": "LIBRETTO-001研究",
+      "relation": "研究设计",
+      "tail": "Selpercatinib治疗RET突变晚期MTC",
+      "source": "LIBRETTO-001研究",
+      "evidence": "Selpercatinib注册II期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32954825"
+    },
+    {
+      "head": "LIBRETTO-001研究",
+      "relation": "ORR（MTC）",
+      "tail": "69%",
+      "source": "LIBRETTO-001研究",
+      "evidence": "Selpercatinib在RET突变MTC中ORR达69%",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32954825"
+    },
+    {
+      "head": "ARROW研究",
+      "relation": "研究设计",
+      "tail": "Pralsetinib治疗RET突变晚期MTC",
+      "source": "ARROW研究",
+      "evidence": "Pralsetinib注册I/II期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32954826"
+    },
+    {
+      "head": "ARROW研究",
+      "relation": "ORR（MTC）",
+      "tail": "60%",
+      "source": "ARROW研究",
+      "evidence": "Pralsetinib在RET突变MTC中ORR达60%",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32954826"
+    },
+    {
+      "head": "EXAMET研究",
+      "relation": "研究设计",
+      "tail": "Cabozantinib vs 安慰剂治疗进展性MTC",
+      "source": "EXAMET研究",
+      "evidence": "Cabozantinib注册III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "24355459"
+    },
+    {
+      "head": "EXAMET研究",
+      "relation": "主要终点PFS",
+      "tail": "11.2个月 vs 4.0个月（安慰剂）",
+      "source": "EXAMET研究",
+      "evidence": "Cabozantinib PFS获益显著",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "24355459"
+    },
+    {
+      "head": "ZETA研究",
+      "relation": "研究设计",
+      "tail": "Vandetanib vs 安慰剂治疗不可切除MTC",
+      "source": "ZETA研究",
+      "evidence": "Vandetanib注册III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "22480117"
+    },
+    {
+      "head": "ZETA研究",
+      "relation": "主要终点PFS",
+      "tail": "30.5个月 vs 19.3个月（安慰剂）",
+      "source": "ZETA研究",
+      "evidence": "Vandetanib PFS获益显著",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "22480117"
+    },
+    {
+      "head": "NCT03244956研究",
+      "relation": "研究设计",
+      "tail": "达拉非尼+曲美替尼治疗BRAF V600E突变ATC",
+      "source": "NCT03244956（ROAR篮子）",
+      "evidence": "BRAF+MEK抑制剂联合治疗BRAF突变ATC",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "33627337"
+    },
+    {
+      "head": "ROAR篮子研究",
+      "relation": "ORR（ATC）",
+      "tail": "69%",
+      "source": "ROAR篮子研究",
+      "evidence": "达拉非尼+曲美替尼在BRAF突变ATC中ORR达69%",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "33627337"
+    },
+    {
+      "head": "KEYNOTE-158研究",
+      "relation": "研究设计",
+      "tail": "帕博利珠单抗治疗晚期甲状腺癌",
+      "source": "KEYNOTE-158研究",
+      "evidence": "帕博利珠单抗注册II期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "31421188"
+    },
+    {
+      "head": "KEYNOTE-158研究",
+      "relation": "ORR（ATC）",
+      "tail": "约30-40%",
+      "source": "KEYNOTE-158研究",
+      "evidence": "帕博利珠单抗在ATC中显示一定活性",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "31421188"
+    },
+    {
+      "head": "CheckMate-214研究",
+      "relation": "研究设计",
+      "tail": "纳武利尤单抗±伊匹木单抗治疗晚期实体瘤（含ATC队列）",
+      "source": "CheckMate-214研究",
+      "evidence": "双免疫联合在ATC中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT02636600研究",
+      "relation": "研究设计",
+      "tail": "阿法替尼治疗HER2阴性胃/食管癌（含甲状腺癌队列）",
+      "source": "NCT02636600（ASTRIS）",
+      "evidence": "抗HER2治疗失败后研究",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT03657251研究",
+      "relation": "研究设计",
+      "tail": "安罗替尼治疗晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT03657251",
+      "evidence": "多靶点TKI在甲状腺癌中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT04191673研究",
+      "relation": "研究设计",
+      "tail": "替雷利珠单抗治疗晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT04191673",
+      "evidence": "PD-1抑制剂在甲状腺癌中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT04812548研究",
+      "relation": "研究设计",
+      "tail": "Tiragolumab+阿替利珠单抗治疗晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT04812548",
+      "evidence": "TIGIT+PD-L1双免疫联合探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT01168973研究",
+      "relation": "研究设计",
+      "tail": "阿帕替尼治疗碘难治性DTC",
+      "source": "NCT01168973（ATA研究）",
+      "evidence": "阿帕替尼在RAIR-DTC中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.85,
+      "pmid": "29953472"
+    },
+    {
+      "head": "NCT03831932研究",
+      "relation": "研究设计",
+      "tail": "Pemigatinib治疗FGFR异常胆管癌（含甲状腺癌队列）",
+      "source": "NCT03831932（FIGHT-202）",
+      "evidence": "FGFR抑制剂在FGFR异常肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT04280081研究",
+      "relation": "研究设计",
+      "tail": "Ivosidenib治疗IDH1突变晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT04280081（ClarIDHy扩展）",
+      "evidence": "IDH1抑制剂在IDH1突变肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT03215579研究",
+      "relation": "研究设计",
+      "tail": "Entrectinib治疗NTRK融合阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT03215579（STARTRK-2）",
+      "evidence": "NTRK抑制剂在NTRK融合肿瘤中高效",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCT03612317研究",
+      "relation": "研究设计",
+      "tail": "Larotrectinib治疗NTRK融合阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT03612317（NAVIGATE）",
+      "evidence": "NTRK抑制剂在NTRK融合肿瘤中高效",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCT03625756研究",
+      "relation": "研究设计",
+      "tail": "Crizotinib治疗ALK/ROS1阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT03625756",
+      "evidence": "ALK/ROS1抑制剂在阳性肿瘤中高效",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT04133111研究",
+      "relation": "研究设计",
+      "tail": "Tepotinib治疗MET扩增/突变实体瘤（含甲状腺癌队列）",
+      "source": "NCT04133111",
+      "evidence": "MET抑制剂在MET异常肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT04559245研究",
+      "relation": "研究设计",
+      "tail": "Capmatinib治疗MET扩增/突变实体瘤（含甲状腺癌队列）",
+      "source": "NCT04559245",
+      "evidence": "MET抑制剂在MET异常肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT04432501研究",
+      "relation": "研究设计",
+      "tail": "Zolbetuximab治疗CLDN18.2阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT04432501",
+      "evidence": "CLDN18.2 ADC在阳性肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT04976392研究",
+      "relation": "研究设计",
+      "tail": "Sacituzumab govitecan治疗TROP2阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT04976392（TROPiCS-05）",
+      "evidence": "TROP2 ADC在阳性肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT03580084研究",
+      "relation": "研究设计",
+      "tail": "Trastuzumab deruxtecan治疗HER2阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT03580084（DESTINY-PanTumor）",
+      "evidence": "HER2 ADC在阳性肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT03066648研究",
+      "relation": "研究设计",
+      "tail": "Magrolimab治疗CD47阳性实体瘤（含甲状腺癌队列）",
+      "source": "NCT03066648",
+      "evidence": "CD47抑制剂在阳性肿瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT02817633研究",
+      "relation": "研究设计",
+      "tail": "Durvalumab+Tremelimumab治疗晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT02817633（D-T）",
+      "evidence": "双免疫联合在实体瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT03829332研究",
+      "relation": "研究设计",
+      "tail": "Relatlimab+纳武利尤单抗治疗晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT03829332",
+      "evidence": "PD-1+LAG-3双免疫联合探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT04047862研究",
+      "relation": "研究设计",
+      "tail": "Cadonilimab（PD-1/CTLA-4双抗）治疗晚期实体瘤（含甲状腺癌队列）",
+      "source": "NCT04047862（AK104）",
+      "evidence": "双特异性抗体在实体瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT03820277研究",
+      "relation": "研究设计",
+      "tail": "帕博利珠单抗新辅助治疗可切除ATC",
+      "source": "NCT03820277",
+      "evidence": "新辅助免疫治疗在ATC中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.75
+    },
+    {
+      "head": "NCT04044404研究",
+      "relation": "研究设计",
+      "tail": "多STARIMUNE治疗实体瘤（含甲状腺癌队列）",
+      "source": "NCT04044404",
+      "evidence": "多靶点免疫激动剂在实体瘤中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.70
+    }
+  ]
+}
