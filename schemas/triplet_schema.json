@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Thyroid Cancer Knowledge Triplet Schema",
+  "description": "Schema for thyroid cancer knowledge base triplets (head-relation-tail)",
+  "type": "object",
+  "properties": {
+    "head": {
+      "type": "string",
+      "description": "Subject entity of the triplet",
+      "minLength": 1
+    },
+    "relation": {
+      "type": "string",
+      "description": "Relationship between head and tail",
+      "minLength": 1
+    },
+    "tail": {
+      "type": "string",
+      "description": "Object entity of the triplet",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string",
+      "description": "Source of the knowledge (guideline, study, etc.)",
+      "minLength": 1
+    },
+    "evidence": {
+      "type": "string",
+      "description": "Detailed evidence or explanation",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "description": "Knowledge domain category",
+      "enum": ["epidemiology", "biomarkers", "csco_2024", "treatment"]
+    },
+    "confidence": {
+      "type": "number",
+      "description": "Confidence score between 0 and 1",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "pmid": {
+      "type": ["string", "null"],
+      "description": "PubMed ID reference if available"
+    }
+  },
+  "required": ["head", "relation", "tail", "source", "evidence", "domain", "confidence", "pmid"],
+  "additionalProperties": false
+}

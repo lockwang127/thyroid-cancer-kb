@@ -1,11 +1,29 @@
 {
+  "name": "thyroid-cancer-kb",
   "version": "1.0.0",
-  "date": "2026-05-08",
-  "total": 51,
+  "build_time": "2026-05-08T11:13:13.027266",
+  "total_triplets": 51,
   "domains": {
     "biomarkers": 14,
     "csco_2024": 12,
     "epidemiology": 12,
     "treatment": 13
+  },
+  "source_files": [
+    "biomarkers.json",
+    "csco_2024.json",
+    "epidemiology.json",
+    "treatment.json"
+  ],
+  "triplets_per_file": {
+    "biomarkers.json": 14,
+    "csco_2024.json": 12,
+    "epidemiology.json": 12,
+    "treatment.json": 13
+  },
+  "confidence_distribution": {
+    "high (>=0.9)": 50,
+    "medium (0.7-0.89)": 1,
+    "low (<0.7)": 0
   }
 }
