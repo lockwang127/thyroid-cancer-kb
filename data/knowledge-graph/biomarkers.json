@@ -1,0 +1,142 @@
+[
+  {
+    "head": "甲状腺癌",
+    "relation": "分期系统",
+    "tail": "AJCC第8版TNM分期",
+    "source": "AJCC Cancer Staging Manual, 8th Edition (2017)",
+    "evidence": "甲状腺癌采用AJCC第8版TNM分期系统，根据原发肿瘤大小（T）、区域淋巴结受累（N）、远处转移（M）进行分期",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌T1期",
+    "relation": "定义",
+    "tail": "肿瘤≤2cm，局限于甲状腺内",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T1期定义为肿瘤最大径≤2cm，局限于甲状腺内；T1a≤1cm，T1b为1-2cm",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌T2期",
+    "relation": "定义",
+    "tail": "肿瘤2-4cm，局限于甲状腺内",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T2期定义为肿瘤最大径>2cm且≤4cm，局限于甲状腺内",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌T3期",
+    "relation": "定义",
+    "tail": "肿瘤>4cm局限于甲状腺内，或任何大小伴最小腺外侵犯",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T3期为肿瘤>4cm局限于甲状腺内，或任何大小肿瘤伴最小腺外侵犯（如侵犯胸骨甲状肌或甲状腺周围软组织）",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌T4a期",
+    "relation": "定义",
+    "tail": "肿瘤侵犯皮下软组织、喉、气管、食管或喉返神经",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T4a期定义为肿瘤侵犯皮下软组织、喉、气管、食管或喉返神经",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌T4b期",
+    "relation": "定义",
+    "tail": "肿瘤侵犯椎前筋膜、包绕颈动脉或纵隔血管",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T4b期为不可切除的肿瘤，侵犯椎前筋膜、包绕颈动脉或纵隔血管",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "ATA复发风险分层",
+    "relation": "低危标准",
+    "tail": "无局部/远处转移，R0切除，无远处转移，无侵袭性病理特征，无血管侵犯，碘131治疗后全身扫描阴性",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "ATA低危标准要求满足：无局部/远处转移、R0切除、无远处转移、无侵袭性组织学特征（如高细胞、柱状细胞、岛状等）、无血管侵犯、若行碘131治疗后全身扫描阴性",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "25822227"
+  },
+  {
+    "head": "ATA复发风险分层",
+    "relation": "中危标准",
+    "tail": "微观血管侵犯、甲状腺外侵犯至带状肌、颈部淋巴结转移（>5个或≥3cm）、RAI治疗后扫描阳性",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "ATA中危标准包括：显微镜下肿瘤侵犯至带状肌、RAI治疗后扫描发现甲状腺床外摄碘、微观血管侵犯、>5个受累淋巴结或任一转移淋巴结≥3cm",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "25822227"
+  },
+  {
+    "head": "ATA复发风险分层",
+    "relation": "高危标准",
+    "tail": "肉眼可见肿瘤残留、远处转移、不恰当的高Tg水平、病理切缘阳性",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "ATA高危标准包括：肉眼可见肿瘤残留、远处转移、术后血清Tg提示远处转移、病理证实切缘阳性、广泛血管侵犯",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "25822227"
+  },
+  {
+    "head": "BRAF V600E突变",
+    "relation": "在甲状腺乳头状癌中的检出率",
+    "tail": "约50%",
+    "source": "多中心基因组学研究",
+    "evidence": "BRAF V600E是甲状腺乳头状癌最常见的驱动基因突变，检出率约为50%，与肿瘤侵袭性和碘摄取能力下降相关",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "28462109"
+  },
+  {
+    "head": "RET基因",
+    "relation": "在甲状腺髓样癌中的作用",
+    "tail": "胚系或体细胞RET突变/融合是髓样癌核心驱动事件",
+    "source": "NCCN甲状腺癌指南及基因检测共识",
+    "evidence": "约25%的髓样癌为家族性，与RET胚系突变相关（MEN2综合征）；散发性髓样癌约50%存在RET体细胞突变。RET突变检测对诊断和靶向治疗选择至关重要",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "31712542"
+  },
+  {
+    "head": "甲状腺球蛋白抗体（TGAb）",
+    "relation": "临床意义",
+    "tail": "干扰Tg监测，TGAb阳性提示复发风险增加",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "约25%的DTC患者存在TGAb阳性，TGAb可干扰血清Tg检测的准确性。术后TGAb持续阳性或由阴转阳提示可能存在残留/复发疾病，应作为独立监测指标",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "25822227"
+  },
+  {
+    "head": "血清甲状腺球蛋白（Tg）",
+    "relation": "临床应用",
+    "tail": "DTC术后和碘131治疗后最重要的肿瘤标志物",
+    "source": "2015 ATA甲状腺癌管理指南及CSCO 2024指南",
+    "evidence": "Tg由功能性甲状腺组织分泌，是分化型甲状腺癌（DTC）最重要的血清标志物。术后/RAI治疗后Tg水平用于评估残留病灶、监测复发。TSH刺激下Tg>10ng/mL提示可能有残留病灶",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "25822227"
+  },
+  {
+    "head": "RAS突变",
+    "relation": "在甲状腺滤泡癌中的检出率",
+    "tail": "40-50%",
+    "source": "TCGA甲状腺癌基因组学研究",
+    "evidence": "RAS基因（NRAS、HRAS、KRAS）突变是甲状腺滤泡癌最常见的分子改变，检出率约40-50%，也可见于滤泡型乳头状癌和具有乳头状核特征的非浸润性滤泡性肿瘤（NIFTP）",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": "25033468"
+  }
+]

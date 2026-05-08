@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "date": "2026-05-08",
+  "total": 51,
+  "domains": {
+    "biomarkers": 14,
+    "csco_2024": 12,
+    "epidemiology": 12,
+    "treatment": 13
+  }
+}

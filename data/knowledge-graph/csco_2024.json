@@ -1,0 +1,122 @@
+[
+  {
+    "head": "低危甲状腺乳头状癌",
+    "relation": "CSCO 2024推荐手术方式",
+    "tail": "腺叶切除术（±峡部切除）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于低危甲状腺乳头状癌（单发、肿瘤≤4cm、无淋巴结转移、无高危病理特征），推荐行腺叶切除±峡部切除，术后密切随访",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "低危甲状腺乳头状癌",
+    "relation": "术后管理策略",
+    "tail": "密切随访，无需常规碘131治疗",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "低危DTC患者术后不需要常规碘131清甲治疗，建议定期随访监测Tg、TgAb及颈部超声",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "中高危甲状腺癌",
+    "relation": "CSCO 2024推荐手术方式",
+    "tail": "全甲状腺切除术",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "中高危甲状腺癌（肿瘤>4cm、多灶、淋巴结转移、存在高危病理特征、远处转移等）推荐行全甲状腺切除术",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "中高危DTC术后",
+    "relation": "推荐辅助治疗",
+    "tail": "碘131（放射性碘）治疗",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "中高危DTC患者全甲状腺切除术后推荐碘131清甲/清灶治疗，以降低复发率和疾病特异性死亡率",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "碘131治疗",
+    "relation": "适应证",
+    "tail": "中高危DTC术后清甲、已知残余病灶清灶、远处转移治疗",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "碘131治疗适应证包括：中高危DTC术后清甲、已知残余病灶或功能性转移灶清灶、对碘131摄取良好的远处转移灶的治疗",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "碘131治疗",
+    "relation": "禁忌证",
+    "tail": "妊娠期、哺乳期、计划6个月内妊娠",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "碘131治疗的绝对禁忌证包括妊娠期和哺乳期；相对禁忌证包括计划6个月内妊娠、严重肾功能不全、严重血象异常等",
+    "domain": "csco_2024",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "DTC术后TSH抑制治疗",
+    "relation": "高危患者目标TSH水平",
+    "tail": "<0.1 mU/L",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于初始治疗反应不佳（生化/结构不完全反应、不确定反应）的高危DTC患者，建议TSH抑制至<0.1 mU/L",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "DTC术后TSH抑制治疗",
+    "relation": "低危患者目标TSH水平",
+    "tail": "0.5-2.0 mU/L（或正常下限附近）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于持续生化反应良好的低危DTC患者，TSH维持在正常参考范围下限（0.5-2.0 mU/L）即可，以减少过度治疗带来的骨质疏松和心血管风险",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "碘难治性分化型甲状腺癌（RAIR-DTC）",
+    "relation": "CSCO 2024推荐一线靶向治疗",
+    "tail": "仑伐替尼（Lenvatinib）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于进展性RAIR-DTC，CSCO 2024推荐仑伐替尼作为一线靶向治疗（SELECT试验：PFS 18.3个月 vs 3.6个月，ORR 64.8%）",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "27211691"
+  },
+  {
+    "head": "碘难治性分化型甲状腺癌（RAIR-DTC）",
+    "relation": "替代靶向治疗方案",
+    "tail": "索拉非尼（Sorafenib）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "索拉非尼可作为RAIR-DTC的替代靶向治疗选择（DECISION试验：PFS 10.8个月 vs 5.8个月）",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": "25033468"
+  },
+  {
+    "head": "甲状腺髓样癌",
+    "relation": "CSCO 2024推荐靶向治疗",
+    "tail": "Selpercatinib（RET抑制剂）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于RET突变阳性的晚期甲状腺髓样癌，推荐Selpercatinib（LIBRETTO-001试验：ORR 69%）或Pralsetinib（ARROW试验：ORR 60%）",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "32954825"
+  },
+  {
+    "head": "甲状腺髓样癌",
+    "relation": "生化监测指标",
+    "tail": "降钙素（Calcitonin）和CEA",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "血清降钙素和CEA是甲状腺髓样癌最重要的肿瘤标志物，术后持续升高的降钙素提示残留病灶或复发， doubling time具有重要的预后价值",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  }
+]

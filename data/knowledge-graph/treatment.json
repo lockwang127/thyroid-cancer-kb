@@ -1,0 +1,132 @@
+[
+  {
+    "head": "甲状腺癌手术",
+    "relation": "术式选择依据",
+    "tail": "根据肿瘤特征（大小、单灶/多灶、淋巴结状态、病理类型）和患者风险分层综合决定",
+    "source": "CSCO 2024甲状腺癌诊疗指南及ATA 2015指南",
+    "evidence": "手术方式的选择需综合考虑肿瘤大小、数目、是否侵犯包膜/血管、有无淋巴结转移及远处转移、患者年龄和合并症等因素",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺腺叶切除术",
+    "relation": "适应证",
+    "tail": "低危单侧DTC（肿瘤≤4cm、无淋巴结转移、无高危病理特征、无远处转移）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "腺叶切除术适用于低危、单侧、局限性DTC患者，手术并发症发生率低于全甲状腺切除，且不影响长期生存",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "全甲状腺切除术",
+    "relation": "适应证",
+    "tail": "肿瘤>4cm、多灶性癌、对侧结节、淋巴结转移、远处转移、有颈部放疗史",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "全甲状腺切除术适用于中高危DTC患者，有利于术后碘131治疗和Tg监测",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "中央区（VI区）淋巴结清扫",
+    "relation": "推荐范围",
+    "tail": "至少清扫气管前和气管旁淋巴结",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于临床淋巴结阳性（cN1a）患者，推荐治疗性中央区淋巴结清扫。对于cN0患者，预防性中央区清扫尚存争议，目前不常规推荐",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "侧颈区淋巴结清扫",
+    "relation": "适应证",
+    "tail": "经FNA证实侧颈淋巴结转移（cN1b）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于FNA证实存在侧颈区淋巴结转移的患者，推荐行治疗性侧颈区淋巴结清扫（II-V区），改良颈清扫保留胸锁乳突肌、颈内静脉和副神经",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "碘131治疗",
+    "relation": "治疗前准备",
+    "tail": "低碘饮食2周、停用左甲状腺素4周或使用rhTSH、测定Tg和TgAb",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "碘131治疗前需进行充分准备：低碘饮食（<50μg/天）至少2周、停用左甲状腺素（L-T4）4周或使用重组人TSH（rhTSH）、测定TSH刺激下Tg和TgAb水平",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "碘131清甲治疗",
+    "relation": "常用剂量",
+    "tail": "30-100 mCi（1.1-3.7 GBq）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "清甲治疗的常用碘131剂量为30-100 mCi，中低危患者常用30-50 mCi，高危患者可考虑更高剂量",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "碘131清灶治疗",
+    "relation": "常用剂量",
+    "tail": "100-200 mCi（3.7-7.4 GBq）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "清灶治疗用于清除已知功能性转移灶，常用剂量为100-200 mCi，间隔6-12个月可重复治疗，累积剂量通常不超过600 mCi",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "TSH抑制治疗",
+    "relation": "常用药物",
+    "tail": "左甲状腺素钠（L-T4，Euthyrox/优甲乐）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "TSH抑制治疗首选左甲状腺素钠（L-T4），需根据体重和目标TSH水平个体化调整剂量，定期监测TSH、FT3、FT4水平",
+    "domain": "treatment",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "DTC术后随访",
+    "relation": "随访频率",
+    "tail": "术后前2年每3-6个月一次，之后每年一次至终身",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "DTC术后建议在前2年每3-6个月随访一次，之后根据风险分层每6-12个月一次。高危患者需更密切随访，低危患者可在5年后降低频率",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "DTC术后随访",
+    "relation": "监测内容",
+    "tail": "颈部超声、血清Tg、TgAb、TSH",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "DTC术后随访常规监测内容包括：颈部超声（首选影像学检查）、血清Tg（TSH抑制下和TSH刺激下）、TgAb、TSH水平",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "DTC术后动态风险分层",
+    "relation": "分类标准",
+    "tail": " excellent response（良好）、biochemical incomplete（生化不完全）、structural incomplete（结构不完全）、indeterminate（不确定）",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "基于术后Tg水平、TgAb趋势和影像学检查，将治疗反应分为四种：良好反应、生化不完全反应、结构不完全反应和不确定反应，据此调整后续治疗策略",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "25822227"
+  },
+  {
+    "head": "甲状腺未分化癌",
+    "relation": "治疗方案",
+    "tail": "多学科综合治疗（手术+放疗+化疗±免疫治疗）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "甲状腺未分化癌治疗需要多学科协作，可行者为手术+术后放化疗联合免疫检查点抑制剂，不可行者以姑息性放化疗和免疫治疗为主",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "head": "中国甲状腺癌",
+    "relation": "2022年新发病例数",
+    "tail": "466100例",
+    "source": "国家癌症中心2022年癌症统计报告",
+    "evidence": "2022年中国甲状腺癌新发病例约46.61万例，居恶性肿瘤发病第7位",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "中国甲状腺癌",
+    "relation": "2022年死亡人数",
+    "tail": "约10000例",
+    "source": "国家癌症中心2022年癌症统计报告",
+    "evidence": "2022年中国甲状腺癌死亡约1万例，病死比不足2%",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌",
+    "relation": "病死比",
+    "tail": "<2%（预后极好）",
+    "source": "国家癌症中心统计数据",
+    "evidence": "甲状腺癌病死比低于2%，在所有恶性肿瘤中预后最好之一",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺乳头状癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "85%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "乳头状癌是最常见的甲状腺恶性肿瘤病理类型，约占85%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺滤泡癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "10%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "滤泡癌是第二常见的甲状腺恶性肿瘤病理类型，约占10%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺髓样癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "5%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "髓样癌起源于甲状腺滤泡旁C细胞，约占甲状腺癌的5%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺未分化癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "<2%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "未分化癌是罕见且侵袭性极强的甲状腺恶性肿瘤，占比不足2%，但死亡率极高",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌发病率",
+    "relation": "上升原因",
+    "tail": "超声检查普及与高分辨率影像学广泛应用",
+    "source": "流行病学研究",
+    "evidence": "近年来甲状腺癌发病率显著上升，主要归因于颈部超声检查的普及和高分辨率超声的广泛应用，大量无症状微小癌被检出",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌",
+    "relation": "性别分布",
+    "tail": "女性发病率约为男性的3-4倍",
+    "source": "国家癌症中心统计数据",
+    "evidence": "甲状腺癌好发于女性，女性发病率约为男性的3-4倍，发病高峰年龄为30-50岁",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺癌",
+    "relation": "发病高峰年龄",
+    "tail": "30-50岁",
+    "source": "国家癌症中心统计数据",
+    "evidence": "甲状腺癌可发生于任何年龄，但以30-50岁为发病高峰",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "甲状腺乳头状癌",
+    "relation": "预后特征",
+    "tail": "10年生存率>95%",
+    "source": "SEER数据库及中国多中心研究",
+    "evidence": "甲状腺乳头状癌整体预后极好，10年生存率超过95%，即便是存在淋巴结转移的患者预后仍然良好",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "31539028"
+  },
+  {
+    "head": "甲状腺未分化癌",
+    "relation": "预后特征",
+    "tail": "中位生存期3-6个月",
+    "source": "ATA指南及多中心临床研究",
+    "evidence": "甲状腺未分化癌预后极差，中位生存期仅3-6个月，1年生存率不足20%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "28462109"
+  }
+]

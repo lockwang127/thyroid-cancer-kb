@@ -1,0 +1,512 @@
+[
+  {
+    "head": "甲状腺癌",
+    "relation": "分期系统",
+    "tail": "AJCC第8版TNM分期",
+    "source": "AJCC Cancer Staging Manual, 8th Edition (2017)",
+    "evidence": "甲状腺癌采用AJCC第8版TNM分期系统，根据原发肿瘤大小（T）、区域淋巴结受累（N）、远处转移（M）进行分期",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌T1期",
+    "relation": "定义",
+    "tail": "肿瘤≤2cm，局限于甲状腺内",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T1期定义为肿瘤最大径≤2cm，局限于甲状腺内；T1a≤1cm，T1b为1-2cm",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌T2期",
+    "relation": "定义",
+    "tail": "肿瘤2-4cm，局限于甲状腺内",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T2期定义为肿瘤最大径>2cm且≤4cm，局限于甲状腺内",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌T3期",
+    "relation": "定义",
+    "tail": "肿瘤>4cm局限于甲状腺内，或任何大小伴最小腺外侵犯",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T3期为肿瘤>4cm局限于甲状腺内，或任何大小肿瘤伴最小腺外侵犯（如侵犯胸骨甲状肌或甲状腺周围软组织）",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌T4a期",
+    "relation": "定义",
+    "tail": "肿瘤侵犯皮下软组织、喉、气管、食管或喉返神经",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T4a期定义为肿瘤侵犯皮下软组织、喉、气管、食管或喉返神经",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌T4b期",
+    "relation": "定义",
+    "tail": "肿瘤侵犯椎前筋膜、包绕颈动脉或纵隔血管",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T4b期为不可切除的肿瘤，侵犯椎前筋膜、包绕颈动脉或纵隔血管",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "ATA复发风险分层",
+    "relation": "低危标准",
+    "tail": "无局部/远处转移，R0切除，无远处转移，无侵袭性病理特征，无血管侵犯，碘131治疗后全身扫描阴性",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "ATA低危标准要求满足：无局部/远处转移、R0切除、无远处转移、无侵袭性组织学特征（如高细胞、柱状细胞、岛状等）、无血管侵犯、若行碘131治疗后全身扫描阴性",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "ATA复发风险分层",
+    "relation": "中危标准",
+    "tail": "微观血管侵犯、甲状腺外侵犯至带状肌、颈部淋巴结转移（>5个或≥3cm）、RAI治疗后扫描阳性",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "ATA中危标准包括：显微镜下肿瘤侵犯至带状肌、RAI治疗后扫描发现甲状腺床外摄碘、微观血管侵犯、>5个受累淋巴结或任一转移淋巴结≥3cm",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "ATA复发风险分层",
+    "relation": "高危标准",
+    "tail": "肉眼可见肿瘤残留、远处转移、不恰当的高Tg水平、病理切缘阳性",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "ATA高危标准包括：肉眼可见肿瘤残留、远处转移、术后血清Tg提示远处转移、病理证实切缘阳性、广泛血管侵犯",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "BRAF V600E突变",
+    "relation": "在甲状腺乳头状癌中的检出率",
+    "tail": "约50%",
+    "source": "多中心基因组学研究",
+    "evidence": "BRAF V600E是甲状腺乳头状癌最常见的驱动基因突变，检出率约为50%，与肿瘤侵袭性和碘摄取能力下降相关",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "RET基因",
+    "relation": "在甲状腺髓样癌中的作用",
+    "tail": "胚系或体细胞RET突变/融合是髓样癌核心驱动事件",
+    "source": "NCCN甲状腺癌指南及基因检测共识",
+    "evidence": "约25%的髓样癌为家族性，与RET胚系突变相关（MEN2综合征）；散发性髓样癌约50%存在RET体细胞突变。RET突变检测对诊断和靶向治疗选择至关重要",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺球蛋白抗体（TGAb）",
+    "relation": "临床意义",
+    "tail": "干扰Tg监测，TGAb阳性提示复发风险增加",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "约25%的DTC患者存在TGAb阳性，TGAb可干扰血清Tg检测的准确性。术后TGAb持续阳性或由阴转阳提示可能存在残留/复发疾病，应作为独立监测指标",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "血清甲状腺球蛋白（Tg）",
+    "relation": "临床应用",
+    "tail": "DTC术后和碘131治疗后最重要的肿瘤标志物",
+    "source": "2015 ATA甲状腺癌管理指南及CSCO 2024指南",
+    "evidence": "Tg由功能性甲状腺组织分泌，是分化型甲状腺癌（DTC）最重要的血清标志物。术后/RAI治疗后Tg水平用于评估残留病灶、监测复发。TSH刺激下Tg>10ng/mL提示可能有残留病灶",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "RAS突变",
+    "relation": "在甲状腺滤泡癌中的检出率",
+    "tail": "40-50%",
+    "source": "TCGA甲状腺癌基因组学研究",
+    "evidence": "RAS基因（NRAS、HRAS、KRAS）突变是甲状腺滤泡癌最常见的分子改变，检出率约40-50%，也可见于滤泡型乳头状癌和具有乳头状核特征的非浸润性滤泡性肿瘤（NIFTP）",
+    "domain": "biomarkers",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "低危甲状腺乳头状癌",
+    "relation": "CSCO 2024推荐手术方式",
+    "tail": "腺叶切除术（±峡部切除）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于低危甲状腺乳头状癌（单发、肿瘤≤4cm、无淋巴结转移、无高危病理特征），推荐行腺叶切除±峡部切除，术后密切随访",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "低危甲状腺乳头状癌",
+    "relation": "术后管理策略",
+    "tail": "密切随访，无需常规碘131治疗",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "低危DTC患者术后不需要常规碘131清甲治疗，建议定期随访监测Tg、TgAb及颈部超声",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "中高危甲状腺癌",
+    "relation": "CSCO 2024推荐手术方式",
+    "tail": "全甲状腺切除术",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "中高危甲状腺癌（肿瘤>4cm、多灶、淋巴结转移、存在高危病理特征、远处转移等）推荐行全甲状腺切除术",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "中高危DTC术后",
+    "relation": "推荐辅助治疗",
+    "tail": "碘131（放射性碘）治疗",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "中高危DTC患者全甲状腺切除术后推荐碘131清甲/清灶治疗，以降低复发率和疾病特异性死亡率",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘131治疗",
+    "relation": "适应证",
+    "tail": "中高危DTC术后清甲、已知残余病灶清灶、远处转移治疗",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "碘131治疗适应证包括：中高危DTC术后清甲、已知残余病灶或功能性转移灶清灶、对碘131摄取良好的远处转移灶的治疗",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘131治疗",
+    "relation": "禁忌证",
+    "tail": "妊娠期、哺乳期、计划6个月内妊娠",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "碘131治疗的绝对禁忌证包括妊娠期和哺乳期；相对禁忌证包括计划6个月内妊娠、严重肾功能不全、严重血象异常等",
+    "domain": "csco_2024",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "DTC术后TSH抑制治疗",
+    "relation": "高危患者目标TSH水平",
+    "tail": "<0.1 mU/L",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于初始治疗反应不佳（生化/结构不完全反应、不确定反应）的高危DTC患者，建议TSH抑制至<0.1 mU/L",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "DTC术后TSH抑制治疗",
+    "relation": "低危患者目标TSH水平",
+    "tail": "0.5-2.0 mU/L（或正常下限附近）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于持续生化反应良好的低危DTC患者，TSH维持在正常参考范围下限（0.5-2.0 mU/L）即可，以减少过度治疗带来的骨质疏松和心血管风险",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘难治性分化型甲状腺癌（RAIR-DTC）",
+    "relation": "CSCO 2024推荐一线靶向治疗",
+    "tail": "仑伐替尼（Lenvatinib）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于进展性RAIR-DTC，CSCO 2024推荐仑伐替尼作为一线靶向治疗（SELECT试验：PFS 18.3个月 vs 3.6个月，ORR 64.8%）",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘难治性分化型甲状腺癌（RAIR-DTC）",
+    "relation": "替代靶向治疗方案",
+    "tail": "索拉非尼（Sorafenib）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "索拉非尼可作为RAIR-DTC的替代靶向治疗选择（DECISION试验：PFS 10.8个月 vs 5.8个月）",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺髓样癌",
+    "relation": "CSCO 2024推荐靶向治疗",
+    "tail": "Selpercatinib（RET抑制剂）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于RET突变阳性的晚期甲状腺髓样癌，推荐Selpercatinib（LIBRETTO-001试验：ORR 69%）或Pralsetinib（ARROW试验：ORR 60%）",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺髓样癌",
+    "relation": "生化监测指标",
+    "tail": "降钙素（Calcitonin）和CEA",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "血清降钙素和CEA是甲状腺髓样癌最重要的肿瘤标志物，术后持续升高的降钙素提示残留病灶或复发， doubling time具有重要的预后价值",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "中国甲状腺癌",
+    "relation": "2022年新发病例数",
+    "tail": "466100例",
+    "source": "国家癌症中心2022年癌症统计报告",
+    "evidence": "2022年中国甲状腺癌新发病例约46.61万例，居恶性肿瘤发病第7位",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "中国甲状腺癌",
+    "relation": "2022年死亡人数",
+    "tail": "约10000例",
+    "source": "国家癌症中心2022年癌症统计报告",
+    "evidence": "2022年中国甲状腺癌死亡约1万例，病死比不足2%",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌",
+    "relation": "病死比",
+    "tail": "<2%（预后极好）",
+    "source": "国家癌症中心统计数据",
+    "evidence": "甲状腺癌病死比低于2%，在所有恶性肿瘤中预后最好之一",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺乳头状癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "85%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "乳头状癌是最常见的甲状腺恶性肿瘤病理类型，约占85%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺滤泡癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "10%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "滤泡癌是第二常见的甲状腺恶性肿瘤病理类型，约占10%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺髓样癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "5%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "髓样癌起源于甲状腺滤泡旁C细胞，约占甲状腺癌的5%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺未分化癌",
+    "relation": "占甲状腺癌比例",
+    "tail": "<2%",
+    "source": "WHO甲状腺肿瘤分类（2022年第5版）",
+    "evidence": "未分化癌是罕见且侵袭性极强的甲状腺恶性肿瘤，占比不足2%，但死亡率极高",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌发病率",
+    "relation": "上升原因",
+    "tail": "超声检查普及与高分辨率影像学广泛应用",
+    "source": "流行病学研究",
+    "evidence": "近年来甲状腺癌发病率显著上升，主要归因于颈部超声检查的普及和高分辨率超声的广泛应用，大量无症状微小癌被检出",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌",
+    "relation": "性别分布",
+    "tail": "女性发病率约为男性的3-4倍",
+    "source": "国家癌症中心统计数据",
+    "evidence": "甲状腺癌好发于女性，女性发病率约为男性的3-4倍，发病高峰年龄为30-50岁",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌",
+    "relation": "发病高峰年龄",
+    "tail": "30-50岁",
+    "source": "国家癌症中心统计数据",
+    "evidence": "甲状腺癌可发生于任何年龄，但以30-50岁为发病高峰",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺乳头状癌",
+    "relation": "预后特征",
+    "tail": "10年生存率>95%",
+    "source": "SEER数据库及中国多中心研究",
+    "evidence": "甲状腺乳头状癌整体预后极好，10年生存率超过95%，即便是存在淋巴结转移的患者预后仍然良好",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺未分化癌",
+    "relation": "预后特征",
+    "tail": "中位生存期3-6个月",
+    "source": "ATA指南及多中心临床研究",
+    "evidence": "甲状腺未分化癌预后极差，中位生存期仅3-6个月，1年生存率不足20%",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺癌手术",
+    "relation": "术式选择依据",
+    "tail": "根据肿瘤特征（大小、单灶/多灶、淋巴结状态、病理类型）和患者风险分层综合决定",
+    "source": "CSCO 2024甲状腺癌诊疗指南及ATA 2015指南",
+    "evidence": "手术方式的选择需综合考虑肿瘤大小、数目、是否侵犯包膜/血管、有无淋巴结转移及远处转移、患者年龄和合并症等因素",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺腺叶切除术",
+    "relation": "适应证",
+    "tail": "低危单侧DTC（肿瘤≤4cm、无淋巴结转移、无高危病理特征、无远处转移）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "腺叶切除术适用于低危、单侧、局限性DTC患者，手术并发症发生率低于全甲状腺切除，且不影响长期生存",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "全甲状腺切除术",
+    "relation": "适应证",
+    "tail": "肿瘤>4cm、多灶性癌、对侧结节、淋巴结转移、远处转移、有颈部放疗史",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "全甲状腺切除术适用于中高危DTC患者，有利于术后碘131治疗和Tg监测",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "中央区（VI区）淋巴结清扫",
+    "relation": "推荐范围",
+    "tail": "至少清扫气管前和气管旁淋巴结",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于临床淋巴结阳性（cN1a）患者，推荐治疗性中央区淋巴结清扫。对于cN0患者，预防性中央区清扫尚存争议，目前不常规推荐",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "侧颈区淋巴结清扫",
+    "relation": "适应证",
+    "tail": "经FNA证实侧颈淋巴结转移（cN1b）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "对于FNA证实存在侧颈区淋巴结转移的患者，推荐行治疗性侧颈区淋巴结清扫（II-V区），改良颈清扫保留胸锁乳突肌、颈内静脉和副神经",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘131治疗",
+    "relation": "治疗前准备",
+    "tail": "低碘饮食2周、停用左甲状腺素4周或使用rhTSH、测定Tg和TgAb",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "碘131治疗前需进行充分准备：低碘饮食（<50μg/天）至少2周、停用左甲状腺素（L-T4）4周或使用重组人TSH（rhTSH）、测定TSH刺激下Tg和TgAb水平",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘131清甲治疗",
+    "relation": "常用剂量",
+    "tail": "30-100 mCi（1.1-3.7 GBq）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "清甲治疗的常用碘131剂量为30-100 mCi，中低危患者常用30-50 mCi，高危患者可考虑更高剂量",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "碘131清灶治疗",
+    "relation": "常用剂量",
+    "tail": "100-200 mCi（3.7-7.4 GBq）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "清灶治疗用于清除已知功能性转移灶，常用剂量为100-200 mCi，间隔6-12个月可重复治疗，累积剂量通常不超过600 mCi",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "TSH抑制治疗",
+    "relation": "常用药物",
+    "tail": "左甲状腺素钠（L-T4，Euthyrox/优甲乐）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "TSH抑制治疗首选左甲状腺素钠（L-T4），需根据体重和目标TSH水平个体化调整剂量，定期监测TSH、FT3、FT4水平",
+    "domain": "treatment",
+    "confidence": 0.99,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "DTC术后随访",
+    "relation": "随访频率",
+    "tail": "术后前2年每3-6个月一次，之后每年一次至终身",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "DTC术后建议在前2年每3-6个月随访一次，之后根据风险分层每6-12个月一次。高危患者需更密切随访，低危患者可在5年后降低频率",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "DTC术后随访",
+    "relation": "监测内容",
+    "tail": "颈部超声、血清Tg、TgAb、TSH",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "DTC术后随访常规监测内容包括：颈部超声（首选影像学检查）、血清Tg（TSH抑制下和TSH刺激下）、TgAb、TSH水平",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "DTC术后动态风险分层",
+    "relation": "分类标准",
+    "tail": " excellent response（良好）、biochemical incomplete（生化不完全）、structural incomplete（结构不完全）、indeterminate（不确定）",
+    "source": "2015 ATA甲状腺癌管理指南",
+    "evidence": "基于术后Tg水平、TgAb趋势和影像学检查，将治疗反应分为四种：良好反应、生化不完全反应、结构不完全反应和不确定反应，据此调整后续治疗策略",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "甲状腺未分化癌",
+    "relation": "治疗方案",
+    "tail": "多学科综合治疗（手术+放疗+化疗±免疫治疗）",
+    "source": "CSCO 2024甲状腺癌诊疗指南",
+    "evidence": "甲状腺未分化癌治疗需要多学科协作，可行者为手术+术后放化疗联合免疫检查点抑制剂，不可行者以姑息性放化疗和免疫治疗为主",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "update_date": "2026-05-08"
+  }
+]
